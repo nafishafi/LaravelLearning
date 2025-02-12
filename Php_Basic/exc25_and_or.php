@@ -8,27 +8,17 @@
 <body>
     <h1>Array PHP</h1>
     <?php
-        // ------- If and else -------
-        // operator logika == === > >= < <= !=
-        // === -> tidak hanya 3 sama dengan tetapi type data nya juga
+        // ------- && || -------
         $uang_programmer = 1000;
         $keyboard = 2000;
         $uang_designer = 4000;
 
-        // true false
-        $hasil = true;
-        $hasil2 = false;
-        if($hasil2){
-            echo 'dibeli';
-        }else if($hasil2){
-            echo 'dibeli oleh designer';
-            if($uang_designer >= $keyboard * 2){
-                echo 'dibeli dua kali oleh designer!';
-            }
-        }else{
-            echo 'ngga cukup';
+        if($uang_programmer > $keyboard || $uang_designer > $keyboard){
+            echo 'boleh beli keyboard';
+        } else {
+            echo 'ngga bisa beli';
         }
-
+        
     ?>
 </body>
 </html>
