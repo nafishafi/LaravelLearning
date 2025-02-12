@@ -8,9 +8,7 @@
 <body>
     <h1>Array PHP</h1>
     <?php
-        // ------- Function -------
-
-use function Laravel\Prompts\text;
+        // ------- Function with parameter -------
 
         function print_text($text, $angka){
             $text = "Latihan " . $text . " " . $angka;
