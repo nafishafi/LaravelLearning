@@ -9,5 +9,9 @@
         public function get_suara(){ // get mengambil
             return 'suaranya adalah...' . $this->suara;
         }
+        public function testing(){
+            // return self::get_suara(); // dengan tambahan dari overriding
+            return parent::get_suara(); // tanpa tambahan
+        }
     }
 ?>
