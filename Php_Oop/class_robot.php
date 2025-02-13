@@ -2,7 +2,7 @@
     // class
     class robot{
         //property
-        protected $suara;
+        public $suara;
         public $berat;
 
         //konstruktor
@@ -15,6 +15,7 @@
         //metode set (mengoper parameter dan mengubah nilai dari property) && metode get
         public function set_suara($suara1){ // set setting
             $this->suara = $suara1;
+            return $this;
         }
         public function set_berat($berat1){ // set setting
             $this->berat = $berat1;
