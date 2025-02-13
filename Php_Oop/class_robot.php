@@ -2,7 +2,7 @@
     // class
     class robot{
         //property
-        public $suara;
+        protected $suara;
         public $berat;
 
         //konstruktor
@@ -29,10 +29,4 @@
         }
     }
 
-    // inheritence
-    class robot_hewan extends robot{
-        public function get_kekuatan(){
-            echo ' saya hewan laut bisa berenang...';
-        }
-    }
 ?>

@@ -8,5 +8,5 @@
     echo 'beratnya.. ' . $robot1->get_berat() . '<br>';
     
     $robothewan = new robot_hewan('huam', 100);
-    echo $robothewan->get_kekuatan();
+    echo $robothewan->get_suara();
 ?>
