@@ -16,6 +16,5 @@
     }
     $robot1 = new robot;
     $robot1->bersuara();
-    echo $robot1->berat_robot();
-    
+    echo $robot1->berat_robot();  
 ?>
