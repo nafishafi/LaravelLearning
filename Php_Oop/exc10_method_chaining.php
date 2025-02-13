@@ -1,7 +1,7 @@
 <?php 
-    require_once 'class_robot.php';
-    require_once 'class_hewan.php';
-    require_once 'class_orang.php';
+    require_once 'robot.php';
+    require_once 'hewan.php';
+    require_once 'orang.php';
     
     // Method Chaining -> cara kita menyambungkan satu metode ke metode lain / cara memanggil beberapa metode sekaligus 
     

@@ -1,5 +1,5 @@
 <?php
-    require_once 'class_robot.php';
+    require_once 'robot.php';
     // inheritence
     class robot_hewan extends robot{
         public function get_kekuatan(){

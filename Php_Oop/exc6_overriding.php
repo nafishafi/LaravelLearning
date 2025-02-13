@@ -1,6 +1,6 @@
 <?php 
-    require_once 'class_robot.php';
-    require_once 'class_hewan.php';
+    require_once 'robot.php';
+    require_once 'hewan.php';
     
     $robot1 = new robot('ngik ngik ngok', 20);
     $robot1->set_berat(50);

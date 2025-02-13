@@ -1,5 +1,5 @@
 <?php 
-    require_once 'class_robot.php';
+    require_once 'robot.php';
     
     $robot1 = new robot('ngik ngik ngok', 20);
     $robot2 = new robot('titut', 30);
