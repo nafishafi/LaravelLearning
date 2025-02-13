@@ -28,6 +28,10 @@
         public function get_berat(){ // get mengambil
             return $this->berat;
         }
+        public function __toString()
+        {
+            echo 'ini adalah kelas';
+        }
     }
 
 ?>
